@@ -1,0 +1,137 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(img/parquet.jpg);
+}
+
+.testata{
+  width: 1250px;
+  height: 223px;
+  border: 1px solid black;
+  margin: auto;
+  background-image: url(img/foresta.jpg);
+  text-align: center;
+
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin: 50px;
+}
+p{
+  color: white;
+  font-size: 35px;
+}
+
+.navigazione{
+  text-align: center;
+  height: 45px;
+  background-color: black;
+  width: 1250px;
+  margin: auto;
+  font-family: verdana;
+
+}
+nav li{
+  display: inline-block;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+main:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.boxleft{
+  height: 700px;
+  width: 280px;
+  border: 1px solid black;
+  float: left;
+  margin: 46px;
+
+
+}
+
+.centrale{
+  width: 545px;
+  height: 2000px;
+  margin: auto;
+  margin-top: 46px;
+  border: 1px solid black;
+  background-color: white;
+  float:left;
+}
+
+img{
+  width: 545px;
+  height: 240px;
+}
+
+.boxri{
+  height: 271px;
+  width: 280px;
+  border: 1px solid black;
+  float: right;
+  margin: 46px;
+  margin-top: 50px;
+
+}
+
+input{
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+.box1{
+  line-height: 400%;
+  margin: 40px;
+  background-color: white;
+}
+
+.contfin{
+  width: 1250px;
+  height: 450px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 46px;
+  background-color: white;
+}
+
+footer{
+  height: 450px;
+  width: 1250px;
+  border: 1px solid black;
+  margin: auto;
+  background-color: white;
+}
+
+.box2{
+  background-color: white;
+  margin: 30px;
+  line-height: 400%;
+}
+
+.widgetsi{
+  margin-left: 30px;
+  line-height: 500%;
+}
+
+.widgetcentr{
+  margin-left: 500px;
+  
+}
